@@ -1,0 +1,178 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav {
+    background-color: rgb(238, 217, 32);
+}
+
+#intro {
+    background-color: rgba(238, 217, 32, 0.668);
+}
+
+.main-section-content {
+    background-color: rgba(238, 217, 32, 0.477);
+}
+
+#bestsellers,
+footer {
+    background-color: rgb(205, 161, 16);
+}
+
+header,
+nav,
+footer,
+#intro,
+.main-section-content,
+#bestsellers,
+#book-reviews {
+    border: 3px solid rgb(255, 153, 0);
+    border-radius: 6px;
+    text-align: center;
+    margin: 40px;
+    box-shadow: 0 0 10px rgb(255, 0, 0);
+
+}
+
+a {
+    color: brown;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 0, 0);
+}
+
+h1,
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table {
+    border: 3px solid rgb(0, 0, 0);
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+ul>li {
+    list-style-type: none;
+}
+
+footer {
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+button {
+    margin: 15px 0;
+    border-color: black;
+    border-radius: 4px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+button:hover {
+    background-color: rgb(211, 142, 23);
+}
+
+#bestsellers {
+    text-align: left;
+}
+
+header img {
+    width: 250px 0;
+}
+
+#intro {
+    padding: 0 40px 30px 40px;
+}
+
+.main-section-content,
+#bestsellers,
+header {
+    padding: 30px;
+}
+
+video {
+    width: 250px;
+    height: 150px;
+
+}
+
+iframe {
+    width: 250px;
+    height: 150px;
+}
+
+h1 {
+    text-shadow: 1px 2px 3px;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+}
+
+button {
+    position: fixed;
+    bottom: 0;
+}
+
+#book-reviews {
+    position: relative;
+
+}
+
+address {
+
+    top: 10px;
+}
+
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    background-color: rgb(255, 145, 0);
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+}
+
+#teachers {
+    display: flex;
+    justify-content: center;
+}
+
+.teacher-info {
+    background-color: rgb(255, 145, 0);
+    margin: 5px;
+    padding: 5px;
+    box-shadow: 1px 1px 5px rgb(255, 72, 0);
+}
+
+#videos div {
+    display: flex;
+}
+
+video,
+iframe {
+    min-width: 100px;
+    margin: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p,
+footer address {
+    margin-left: 5px;
+    margin-right: 5px;
+}
